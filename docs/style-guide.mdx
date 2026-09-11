@@ -1,0 +1,89 @@
+---
+sidebar_position: 5
+---
+
+# Style Guide
+
+This page documents the writing conventions used throughout the
+QueuEase documentation, so future contributors keep the docs
+consistent.
+
+## Voice and tone
+
+- Write directly to the reader using **"you"** — not "the user" or
+  "one."
+- Keep sentences short and direct. Prefer active voice 
+- Avoid jargon where a plain-language alternative exists. If a
+  technical term is necessary, explain it on first use.
+
+## Structure
+
+- **Headings** follow a strict hierarchy: `#` for the page title (one
+  per page), `##` for major sections, `###` for sub-sections within
+  them. Never skip a level.
+- **Procedures** (anything the reader must do in order) are written as
+  numbered lists. Reference information (non-sequential facts) uses
+  bullet points instead.
+- Every how-to page ends by pointing to a logical next step, so
+  readers aren't left without direction.
+
+## Formatting conventions
+
+| Element | Convention | Example |
+|---|---|---|
+| UI elements | **Bold** | Tap **Confirm** |
+| File names / code | `Inline code` | `docs/intro.md` |
+| Supplementary info | `:::tip` admonition | See How-To page |
+| Warnings | `:::caution` admonition | See How-To page |
+
+## Admonitions
+
+This documentation uses Docusaurus's built-in admonition blocks
+deliberately and sparingly:
+
+- **`:::tip`** — optional, helpful context. Skipping it doesn't
+  prevent the reader from succeeding.
+- **`:::caution`** — something the reader should know before
+  proceeding, where skipping it could cause a real problem.
+
+Admonitions are not used for core instructions — if it's a required
+step, it belongs in the numbered list, not a callout box.
+
+## Page frontmatter
+
+Every doc page includes a `sidebar_position` value in its frontmatter
+to control its order in the sidebar explicitly, rather than relying on
+alphabetical sorting.
+
+## Writing checklist
+
+Before publishing a page, confirm:
+
+- [ ] Every procedure is numbered and can be followed without
+      re-reading
+- [ ] Every UI element mentioned is bolded
+- [ ] The page links forward to a logical next step, if one exists
+- [ ] No unexplained jargon
+
+## Fenced code blocks
+
+Use triple backticks with a language identifier for any code, commands,
+or sample output — never plain inline text for anything meant to be
+copied and run.
+
+````markdown
+```bash
+npm install
+```
+````
+
+- Always specify the language (` ```bash `, ` ```json `, ` ```javascript `,
+  etc.) so syntax highlighting renders correctly and readers know what
+  they're looking at.
+- One command per code block where possible, so readers can copy and
+  run each step individually rather than a whole block at once.
+- Terminal commands are shown without a `$` prompt prefix, so they can
+  be copied and pasted directly without editing.
+- If a code block shows expected output (not something the reader
+  types), label it clearly above the block — e.g. "You should see:" —
+  rather than mixing input and output in the same block.
