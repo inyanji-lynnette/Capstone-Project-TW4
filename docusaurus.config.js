@@ -137,7 +137,7 @@ const config = {
               },
               {
                 label: 'Capstone Project-Group 1',
-                href: '/docs/intro',
+                href: '/docs/introduction',
               },
               {
                 label: 'LinkedIn',
