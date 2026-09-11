@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcapstone_site=self.webpackChunkcapstone_site||[]).push([["3220"],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/Capstone-Project-TW4/blog","blogTitle":"Blog","authorsListPath":"/Capstone-Project-TW4/blog/authors"}')}}]);

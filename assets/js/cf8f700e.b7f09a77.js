@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcapstone_site=self.webpackChunkcapstone_site||[]).push([["5227"],{7103(e){e.exports=JSON.parse('{"metadata":{"permalink":"/Capstone-Project-TW4/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
