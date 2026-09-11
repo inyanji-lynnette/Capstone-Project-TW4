@@ -4,32 +4,33 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Live Queue Tracking',
+    Svg: require('@site/static/img/icon-clock.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        See your real-time position in line from anywhere. No more
+        guessing how long the wait will be, or standing in a crowded
+        waiting room to hold your spot.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Smart Notifications',
+    Svg: require('@site/static/img/icon-bell.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Get notified as your turn approaches, so you can arrive right
+        on time instead of arriving early and waiting around..
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Easy Rescheduling',
+    Svg: require('@site/static/img/icon-calendar.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Change or cancel your appointment in a few taps, without
+        needing to call in or visit the facility in person. Our system will automatically update your position in line and notify you of any changes.
       </>
     ),
   },

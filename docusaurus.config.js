@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Capstone Project',
-  tagline: 'Group 1',
+  title: 'QueueEase',
+  tagline: 'Track your place in line. Skip the waiting room.',
   favicon: 'img/favicon.ico',    
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/inyanji-lynnette/Capstone-Project-TW4/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +61,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/inyanji-lynnette/Capstone-Project-TW4/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -83,9 +83,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Capstone Project',
+        title: 'QueueEase',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'QueueEase Logo',
           src: 'img/TW4 Tech Solutions logo.png',
         },
         items: [
@@ -93,11 +93,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/inyanji-lynnette/Capstone-Project-TW4',
             label: 'GitHub',
             position: 'right',
           },
@@ -110,43 +110,43 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Getting Started',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
+            title: 'Project',
             items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'GitHub Repo',
+                href: 'https://github.com/inyanji-lynnette/Capstone-Project-TW4',
+              },
+            ],
+          },
+          {
+            title: 'About',
+            items: [
+              {
+                label: 'About',
+                href: '/about',
+              },
+              {
+                label: 'Capstone Project-Group 1',
+                href: '/docs/intro',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/lynnettewafula/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} QueueEase - Lynnette Inyanji. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
