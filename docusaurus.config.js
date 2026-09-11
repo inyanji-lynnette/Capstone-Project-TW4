@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Capstone Project',
   tagline: 'Group 1',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico',    
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -83,10 +83,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Capstone Project',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/TW4 Tech Solutions logo.png',
         },
         items: [
           {
